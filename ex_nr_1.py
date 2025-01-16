@@ -3,7 +3,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Load the input image in color mode (3 corresponds to cv2.IMREAD_COLOR)
-img = cv2.imread('city_hall.jpg', 3)
+# img = cv2.imread('city_hall.jpg', 3)
+img = cv2.imread('portrait_dog.jpg', 3)
 
 # Convert the image to grayscale
 gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
